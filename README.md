@@ -14,6 +14,13 @@ The main goal of this project is to automatically trigger a Jenkins job when a c
 * Python
 * CI/CD
 
+## Repository Structure
+
+```text
+.
+├── hello-world.py
+└── README.md
+
 ## Project Workflow
 
 ```text
