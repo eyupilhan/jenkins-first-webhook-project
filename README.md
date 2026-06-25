@@ -20,6 +20,7 @@ The main goal of this project is to automatically trigger a Jenkins job when a c
 .
 ├── hello-world.py
 └── README.md
+```
 
 ## Project Workflow
 
@@ -34,7 +35,6 @@ Run Python Script
     ↓
 Build Result
 ```
-
 ## Project File
 
 * `hello-world.py`: A simple Python script used to test the Jenkins job execution.
