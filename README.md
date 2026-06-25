@@ -35,6 +35,7 @@ Run Python Script
     ↓
 Build Result
 ```
+
 ## Project File
 
 * `hello-world.py`: A simple Python script used to test the Jenkins job execution.
