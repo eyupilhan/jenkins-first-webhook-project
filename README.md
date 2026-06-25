@@ -4,7 +4,9 @@
 
 This project demonstrates a basic Jenkins and GitHub webhook integration.
 
-The main goal of this project is to automatically trigger a Jenkins job when a change is pushed to the GitHub repository. A simple Python script is used to validate that the Jenkins job runs successfully.
+The main goal of this project is to automatically trigger a Jenkins job whenever code is pushed to a GitHub repository. A simple Python script is used to verify that the Jenkins build is triggered and executed successfully.
+
+---
 
 ## Technologies Used
 
@@ -14,6 +16,8 @@ The main goal of this project is to automatically trigger a Jenkins job when a c
 * Python
 * CI/CD
 
+---
+
 ## Repository Structure
 
 ```text
@@ -22,31 +26,48 @@ The main goal of this project is to automatically trigger a Jenkins job when a c
 └── README.md
 ```
 
+---
+
 ## Project Workflow
 
 ```text
 GitHub Push
-    ↓
+      │
+      ▼
 GitHub Webhook
-    ↓
+      │
+      ▼
 Jenkins Job Trigger
-    ↓
+      │
+      ▼
 Run Python Script
-    ↓
+      │
+      ▼
 Build Result
 ```
 
+---
+
 ## Project File
 
-* `hello-world.py`: A simple Python script used to test the Jenkins job execution.
+* `hello-world.py` – A simple Python script used to verify Jenkins job execution.
+
+---
 
 ## Purpose
 
-The purpose of this project is to practice Continuous Integration basics using Jenkins and GitHub. It demonstrates how Jenkins can be triggered automatically through GitHub webhooks.
+This project was created to practice the fundamentals of Continuous Integration (CI) using Jenkins and GitHub Webhooks.
 
-## What I Learned
+It demonstrates how a code change pushed to GitHub can automatically trigger a Jenkins build without manual intervention.
 
-* How to connect GitHub with Jenkins using webhooks
-* How to trigger Jenkins jobs automatically after a GitHub push
-* How CI/CD automation works at a basic level
-* How to use a simple Python script as part of a Jenkins job
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+* Configuring GitHub Webhooks
+* Connecting GitHub repositories to Jenkins
+* Automatically triggering Jenkins jobs after Git pushes
+* Understanding the basic Continuous Integration (CI) workflow
+* Executing Python scripts as part of a Jenkins build process
